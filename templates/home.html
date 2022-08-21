@@ -1,0 +1,20 @@
+{% extends 'layout.html' %}
+
+{% block content %}
+
+<h1 class="display-1">Create Question</h1>
+<form action="/questions" method="POST">
+    <div class="form-group d-flex flex-column gap-1">
+        <label class="text-left w-50" for="title">Question</label>
+        <div class="col-sm-6">
+            <input id="title" class="form-control" type="text" name="question" placeholder="Question">
+        </div>
+        <div class="col-sm-6">
+            <textarea class="form-control" name="answer" placeholder="Answer" cols="30" rows="10"></textarea>
+        </div>
+        <div class="col-sm-6">
+            <button class="btn btn-primary w-100">+</button>
+        </div>
+    </div>
+</form>
+{% endblock %}

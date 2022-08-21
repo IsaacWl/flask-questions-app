@@ -1,0 +1,12 @@
+.navbar {
+    background: #f1f1f1;
+}
+.container {
+    min-height: 80vh;
+}
+footer {
+    text-align: center;
+    padding-bottom: 1em;
+    padding-top: 1.6em;
+    border: 1px solid #f1f1f1;
+}
